@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {  
+  background: url('./img/bg.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #FFF;
+  overflow: hidden;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.1rem 3rem .5rem 3rem;
+  font-size: 0.75rem;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu img {
+  width: 10rem;
+  cursor: pointer;
+}
+
+.links {
+  margin-left: -10rem;
+  z-index: 1;
+}
+
+.links a {
+  margin: 0 0.8rem;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.links a:hover {
+  background: #ffad00;
+  color: #000;
+  border-radius: 5px;
+}
+
+.menu p {
+  color: #ddd;
+  font-size: 1.1em;
+  z-index: 1;
+} 
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+#scorpion {
+  position: absolute;
+  width: 42%;
+  top: 1.4rem;
+  right: 0;
+  z-index: 0;
+}
+
+.title {
+  margin: 4rem;
+}
+
+.title h1 {
+  font-weight: 300;
+  font-size: 6.5rem;
+  line-height: 6rem;
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: black;
+}
+
+.title h1 span {
+  font-weight: 700;
+  font-size: 1.3em;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-text-stroke-color: #ffad00;
+}
+
+.title h4 {
+  font-weight: normal;
+  width: 60%;
+}
+
+.title button {
+  background: #ffad00;
+  color: black;
+
+  border: none;
+
+  padding: 0.8rem 3rem;
+  margin: 6rem 0;
+
+  font-size: 1.1rem;
+  font-weight: 300;
+  cursor: pointer;
+
+  transition:  0.2s ease-out;
+}
+
+.title button:hover {
+  background: none;
+  color: #ffad00;
+
+  border: .1rem solid #ffad00;
+}
+
+.sticker {
+  position: absolute;
+  bottom: -1rem;
+  margin-left: 30rem;
+  z-index: -2;
+}
+
+#strip {
+  width: 22rem;
+}
+
+#baraka {
+  position: absolute;
+  margin-left: -19.5rem;
+  top: -7rem;
+  width: 10rem;
+}
